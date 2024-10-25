@@ -18,7 +18,7 @@ function logclick() {
         // if (cashgiven.value <= billamt.value) {
         //     alert("Cash Given should be greater than bill amount");
         // }
-        if (billamt.value < cashgiven.value) {
+        if (Number(billamt.value) < Number(cashgiven.value)) {
             var givebackamt = (cashgiven.value - billamt.value);
             // console.log(givebackamt);
 
